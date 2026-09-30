@@ -1,0 +1,11 @@
+{
+  "name": "calculo-nitido",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "adm-zip": "0.5.16"
+  }
+}
