@@ -33,5 +33,5 @@ function instalarAdSense(carpeta) {
 }
 
 instalarAdSense(out);
-
+fs.writeFileSync(path.join(out, 'ads.txt'), 'google.com, pub-7515408159919408, DIRECT, f08c47fec0942fa0\n', 'utf8');
 console.log('Cálculo Nítido listo en dist/ con Google AdSense.');
